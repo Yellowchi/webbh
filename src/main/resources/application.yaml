@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: mysqladmin
+    url: jdbc:mysql://localhost:3306/webbh?characterEncoding = utf-8
+
+  jpa:
+    database: MySQL
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
